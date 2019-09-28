@@ -18,7 +18,7 @@ class WelcomeController {
         try {
             return res.status(200).json({
                 status: true,
-                message: 'Node server is running !!',
+                message: 'Welcome from server !!',
             });
         } catch (error) {
             return next(error);

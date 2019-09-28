@@ -15,7 +15,7 @@ app.use(router);
 
 const port = process.env.NODE_ENV === 'DEV' ? process.env.DEV_PORT : process.env.PORT;
 app.listen(port, () =>
-  console.log(`api rest crm is listening on port ${port}!`)
+  console.log(`server is listening on port ${port}!`)
 );
 
 export default app;
